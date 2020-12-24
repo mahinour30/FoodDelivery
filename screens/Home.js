@@ -1,7 +1,9 @@
 import React from 'react';
 import {View, Text, SafeAreaView, StyleSheet, TouchableOpacity, Image, FlatList} from 'react-native';
 import {COLORS, icons, images, SIZES, FONTS} from '../constants';
-const Home = () =>{
+
+
+const Home = ({navigation}) =>{
 
      // Dummy Datas
 
@@ -489,6 +491,10 @@ const Home = () =>{
         const renderItem= ({item}) => (
             <TouchableOpacity
                 style={{marginBottom: SIZES.padding*2}}
+                onPress={()=> navigation.navigate("Restaurant",
+                item,
+                currentLocation
+                )}
             >
                 <View style={{marginBottom:SIZES.padding}}>
                 <Image
