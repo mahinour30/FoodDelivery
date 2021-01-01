@@ -1,7 +1,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
   package="com.fooddeliveryapp">
 
-    <uses-permission android:name="android.permission.INTERNET" />
+     <uses-permission android:name="android.permission.INTERNET" />
+     <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 
     <application
       android:name=".MainApplication"
@@ -12,9 +15,7 @@
       android:theme="@style/AppTheme">
 
 
-      <meta-data
-     android:name="com.google.android.geo.API_KEY"
-     android:value="AIzaSyCUGRq8f-qEWoDIiK1GYGmyiA4tkq_I1sE"/>
+  
    <uses-library android:name="org.apache.http.legacy" android:required="false"/>
 
       <activity
@@ -29,6 +30,10 @@
         </intent-filter>
       </activity>
       <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+          <meta-data
+     android:name="com.google.android.geo.API_KEY"
+     android:value="AIzaSyCUGRq8f-qEWoDIiK1GYGmyiA4tkq_I1sE"/>
+        
     </application>
 
 </manifest>
