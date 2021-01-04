@@ -1,3 +1,3 @@
-const GOOGLE_API_KEY = "AIzaSyCUGRq8f-qEWoDIiK1GYGmyiA4tkq_I1sE"
+const GOOGLE_API_KEY = "PLACE YOUR API HERE"
 
 export default GOOGLE_API_KEY
