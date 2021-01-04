@@ -85,7 +85,7 @@ const Home = ({ navigation }) => {
     const restaurantData = [
         {
             id: 1,
-            name: "ByProgrammers Burger",
+            name: "Burger Place",
             rating: 4.8,
             categories: [5, 7],
             priceRating: affordable,
@@ -128,7 +128,7 @@ const Home = ({ navigation }) => {
         },
         {
             id: 2,
-            name: "ByProgrammers Pizza",
+            name: "Pizza Place",
             rating: 4.8,
             categories: [2, 4, 6],
             priceRating: expensive,
@@ -179,7 +179,7 @@ const Home = ({ navigation }) => {
         },
         {
             id: 3,
-            name: "ByProgrammers Hotdogs",
+            name: "Hotdogs Place",
             rating: 4.8,
             categories: [3],
             priceRating: expensive,
@@ -206,7 +206,7 @@ const Home = ({ navigation }) => {
         },
         {
             id: 4,
-            name: "ByProgrammers Sushi",
+            name: "Sushi",
             rating: 4.8,
             categories: [8],
             priceRating: expensive,
@@ -233,7 +233,7 @@ const Home = ({ navigation }) => {
         },
         {
             id: 5,
-            name: "ByProgrammers Cuisine",
+            name: "Cuisine Place",
             rating: 4.8,
             categories: [1, 2],
             priceRating: affordable,
@@ -286,7 +286,7 @@ const Home = ({ navigation }) => {
         {
 
             id: 6,
-            name: "ByProgrammers Dessets",
+            name: "Dessets Place",
             rating: 4.9,
             categories: [9, 10],
             priceRating: affordable,
@@ -376,7 +376,7 @@ const Home = ({ navigation }) => {
                     />
                 </TouchableOpacity>
 
-                <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
+                <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center', paddingTop:10}}>
                     <View
                         style={{
                             width: '70%',
