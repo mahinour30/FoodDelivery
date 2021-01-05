@@ -1,4 +1,4 @@
-## newsApp
+## FoodDeliveryApp
 #### react native news app
 
 ## Installation
